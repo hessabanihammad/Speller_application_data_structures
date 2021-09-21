@@ -31,14 +31,14 @@ When the user enters a word with a “*”, the program will find the location o
 integer value x. Then if the integer value x is greater than 0 and x is less than the length of the search
 string, then it will store a prefix in a string that starts from the 0 to x (location of the “*”). Then, the
 binary search function will be called with arguments (list, prefix and x) to search for the matching word to
-the prefix provided by the user. We then create another vector to store the words found, titled “words
+the prefix provided by the user. I then create another vector to store the words found, titled “words
 Found”. While the substring of the word found matches the prefix, the NumEntries will increase (which is
 the words matching in this case). After that, the words found will be printed with the word comparisons
 done.
 
-When the user enters a word with a ?, the same algorithmic design is implemented as the “*”. We save the
-position of the “?” in an integer value y. The only difference here is that we also create a string titled
-suffix to save the search string substring after the “?”.Then we call the binary search function with
+When the user enters a word with a ?, the same algorithmic design is implemented as the “*”. I save the
+position of the “?” in an integer value y. The only difference here is that I also create a string titled
+suffix to save the search string substring after the “?”.Then I call the binary search function with
 arguments (list, prefix and y (location of “?”). While the word in the dictionary matches the prefix and the
 suffix then it's a match. The number of entries are printed as well as the words found and the word
 comparisons.
